@@ -1,28 +1,25 @@
 # djangoRestFramework-Student-Fee-Management-API
-Student Fee Management API
-A lightweight RESTful API built with Django and Django REST Framework (DRF) to manage student records and fee statuses.
 
- Key Features
-Student & Program Management: Track student details and link them to specific academic programs.
+#  Student Fee Management API
 
-Automated CRUD: Uses ModelViewSet for efficient Create, Read, Update, and Delete operations.
+A streamlined **RESTful API** built with **Django REST Framework** to manage student academic programs and fee statuses.
 
-Data Validation: Integrated ModelSerializer for clean data handling.
+---
 
-API Documentation: Fully documented using Swagger and Redoc for easy testing.
+###  Key Features
+* **Student Tracking**: Manage profiles, roll numbers, and payment status.
+* **Automated Routing**: Uses DRF `DefaultRouter` for clean URL endpoints.
+* **Interactive Docs**: Integrated **Swagger UI** and **Redoc** for real-time testing.
+* **Serialization**: Robust data validation via `ModelSerializer`.
 
- Project Snapshots
-Models: Structured database with Program and Student classes.
+---
 
-Admin Panel: Easy backend management via Django Admin.
+###  Technical Implementation
+* **Models**: Defines `Program` and `Student` entities with a `ForeignKey` relationship.
+* **ViewSets**: Implements `ModelViewSet` to handle CRUD logic with minimal code.
+* **Admin**: Models are registered in `admin.py` for easy backend management.
 
-URL Routing: Clean API versioning and endpoint mapping.
-
- Setup
-Install dependencies: pip install django djangorestframework drf-yasg.
-
-Migrate database: python manage.py migrate.
-
-Run server: python manage.py runserver.
-
-Access Swagger: Open /swagger/ in your browser.
+---
+   `python manage.py runserver`
+4. **Explore**: 
+   Visit `/swagger/` for interactive documentation.
