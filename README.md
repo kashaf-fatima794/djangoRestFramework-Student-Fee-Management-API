@@ -1,4 +1,4 @@
-# djangoRestFramework-Student-Fee-Management-API
+# django-Rest-Framework-Student-Fee-Management-API
 
 #  Student Fee Management API
 
